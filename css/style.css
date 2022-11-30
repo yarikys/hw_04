@@ -412,12 +412,61 @@ body{
     display: block;
 }
 
+.section_customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.costomers_title{
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: 700;
+    color: var(--darkgray);
+    line-height: 1.16;
+    font-size: 36px;
+}
+
+.costomers_list {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.costimers_link {
+    height: 92px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.costimers_link:hover{
+    border: 1px solid var(--blue);
+}
+
+.costimers_link:hover svg {
+    fill: var(--blue);
+}
+
+.costimers_link:focus{
+    border: 1px solid var(--blue);
+}
+
+.costimers_link:focus svg {
+    fill: var(--blue);
+}
+
 .costomers_svg {
     width: 106px;
     height: 60px;
     display: block;
     fill: var(--about_svg);
 }
+
 
 .footer_title {
     font-family: 'Roboto';
