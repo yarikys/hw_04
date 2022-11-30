@@ -145,6 +145,7 @@ body{
 	padding: 200px 0;
 	line-height: 1.36;
 	background-image: url(../images/gradient.png), url(../images/hero_bg.jpg);
+	height: 200px;
 }
 
 .title{
@@ -393,7 +394,7 @@ body{
 }
 
 .link_svg:hover svg {
-    fill: var(--white);
+    fill: #fff;
 }
 
 .link_svg:focus {
@@ -401,7 +402,7 @@ body{
 }
 
 .link_svg:focus svg {
-    fill: var(--white);
+    fill: #fff;
 }
 
 .ourteam_svg {
