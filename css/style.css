@@ -396,7 +396,7 @@ body{
 }
 
 .link_svg:hover svg {
-    fill: #fff;
+    fill: var(--blue);
 }
 
 .link_svg:focus {
@@ -404,7 +404,7 @@ body{
 }
 
 .link_svg:focus svg {
-    fill: #fff;
+    fill: var(--blue);
 }
 
 .ourteam_svg {
@@ -451,7 +451,7 @@ body{
 }
 
 .costimers_link:hover svg {
-    fill: var(--blue);
+    fill: var(--white);
 }
 
 .costimers_link:focus{
@@ -459,7 +459,7 @@ body{
 }
 
 .costimers_link:focus svg {
-    fill: var(--blue);
+    fill: var(--white);
 }
 
 .costomers_svg {
